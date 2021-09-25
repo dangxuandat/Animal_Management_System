@@ -35,6 +35,8 @@ CREATE TABLE area(
 
 CREATE TABLE manager(
     id                    int IDENTITY (1,1) PRIMARY KEY,
+    username              nvarchar(30)         NOT NULL UNIQUE,
+    password              nvarchar(12)         NOT NULL,
     name                  nvarchar(50)         NOT NULL,
     phone                 varchar(15)          NULL,
     age                   int                  NOT NULL,
