@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>d786ece1-adb3-46f4-b7b9-ac0685e83b54.SCHEMA:Animal_Management_System.dbo</OriginalElement>
+  <nodes>
+    <node x="598.125" y="-206.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type_food</node>
+    <node x="-97.375" y="182.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.area</node>
+    <node x="133.375" y="-206.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.animal</node>
+    <node x="768.625" y="-206.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.food</node>
+    <node x="369.75" y="-206.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type</node>
+    <node x="-308.0" y="-206.0">d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.manager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.animal" target="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type" relationship="REFERENCES">
+      <point x="35.25" y="-94.5" />
+      <point x="239.125" y="126.0" />
+      <point x="436.25" y="126.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.animal" target="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.area" relationship="REFERENCES">
+      <point x="-35.25" y="-94.5" />
+      <point x="168.625" y="126.0" />
+      <point x="-30.875" y="126.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.manager" target="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.area" relationship="REFERENCES">
+      <point x="0.0" y="-72.5" />
+      <point x="-241.5" y="126.0" />
+      <point x="-30.875" y="126.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type_food" target="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.food" relationship="REFERENCES">
+      <point x="26.5" y="-50.5" />
+      <point x="677.625" y="126.0" />
+      <point x="835.125" y="126.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type_food" target="d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.type" relationship="REFERENCES">
+      <point x="-26.5" y="-50.5" />
+      <point x="624.625" y="126.0" />
+      <point x="436.25" y="126.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="229.5" y="12.0" />
+  <SelectedNodes>
+    <node>d786ece1-adb3-46f4-b7b9-ac0685e83b54.TABLE:Animal_Management_System.dbo.food</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
